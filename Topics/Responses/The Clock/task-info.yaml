@@ -1,0 +1,25 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    from flask import Flask, make_response
+    import datetime
+
+    app = Flask('main')
+
+    @app.route('code_here')
+    def main_view():
+        time = datetime.datetime.now()
+        year, month, day = time.year, time.month, time.day
+
+        # your code here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17398#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 3. 2022.02.19
+    200
+  time: Sat, 19 Feb 2022 14:42:02 UTC
+record: -1

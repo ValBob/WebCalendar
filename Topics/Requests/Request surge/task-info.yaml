@@ -1,0 +1,19 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    from flask import Flask, request, make_response
+
+    app = Flask('main')
+
+    @app.route('URL')
+    def main_view():
+        pass # your code here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17339#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Sat, 19 Feb 2022 12:16:02 UTC
+record: -1

@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Errors will not be displayed at all.
+- text: 'Flask will display a blank screen. '
+- text: There will be a server error.
+- text: Flask will display a very simple page and log the exception.
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17369#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Mon, 21 Feb 2022 20:20:45 UTC
+record: -1
+selected_options:
+- 3

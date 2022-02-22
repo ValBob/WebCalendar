@@ -1,0 +1,21 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    from flask import Flask
+
+    app = Flask('main')
+    app.app_context()
+
+    city_dict = {10001: "New York",
+                 20001: "Washington",
+                 101000: "Moscow"}
+
+    @app.route()
+    def render_city():
+        pass  # your code here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17356#comment
+status: Solved
+record: -1
